@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
   const { productItems } = data;
+  console.log("productItems:>>", productItems)
   const [cartItems, setCartItems] = useState([]);
 
   const handleAddProduct = (product) => {
